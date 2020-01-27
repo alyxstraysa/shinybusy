@@ -31,7 +31,7 @@ show_modal_spinner <- function(spin = "double-bounce",
     js_center_modal(),
     spinkit_dependencies(),
     tags$div(
-      style = "width: 60px; height: 60px; position: relative; margin: auto;",
+      style = "width: 100px; height: 30px; position: relative; margin: auto;",
       tag_spin
     ),
     tags$div(
